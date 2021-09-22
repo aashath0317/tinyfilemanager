@@ -9,7 +9,7 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false}';
  */
 
 // Auth with login/password (set true/false to enable/disable it)
-$use_auth = true;
+$use_auth = false;
 
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
@@ -44,7 +44,7 @@ $root_path = $_SERVER['DOCUMENT_ROOT'];
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
-$root_url = '';
+$root_url = 'https://c2ptva.herokuapp.com/';
 
 // Server hostname. Can set manually if wrong
 $http_host = $_SERVER['HTTP_HOST'];
